@@ -1,0 +1,159 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+ 
+
+\usepackage[lining]{ebgaramond}
+
+\usepackage{lipsum}
+
+
+\usepackage{amsmath}
+\usepackage{cases}
+
+
+\title{Test for \LaTeX~Environment}
+\author{Yaojin Sun}
+\date{\today}
+ 
+\begin{document}
+\maketitle
+
+\begin{abstract}
+	This is a basic document for testing \LaTeX~environment.
+\end{abstract}
+
+\section{Font}
+This document is a sample document to 
+test font families and font typefaces.
+\\
+\verb|qcr|
+{\fontfamily{qcr}\selectfont
+This text uses a different font typeface 0123456789 
+}\\
+\verb|cmr|
+{\fontfamily{cmr}\selectfont
+This text uses a different font typeface 0123456789
+}\\
+\verb|lmr|
+{\fontfamily{lmr}\selectfont
+This text uses a different font typeface 0123456789
+}\\
+\verb|lmdh|
+{\fontfamily{lmdh}\selectfont
+This text uses a different font typeface 0123456789
+}\\
+\verb|qtm|
+{\fontfamily{qtm}\selectfont
+This text uses a different font typeface 0123456789
+}\\
+\verb|qpl|
+{\fontfamily{qpl}\selectfont
+This text uses a different font typeface 0123456789
+}\\
+\verb|qbk|
+{\fontfamily{qbk}\selectfont
+This text uses a different font typeface 0123456789
+}\\
+\verb|qcs|
+{\fontfamily{qcs}\selectfont
+This text uses a different font typeface 0123456789
+}\\
+\verb|ptm|
+{\fontfamily{ptm}\selectfont
+This text uses a different font typeface 0123456789
+}\\
+\verb|lmtt|
+{\fontfamily{lmtt}\selectfont
+This text uses a different font typeface 0123456789
+}\\
+
+\subsection{Garamond}
+Garamond is my favorate font compared with classic fonts embeded in \LaTeX.\\
+
+\verb|\usepackage[lining]{ebgaramond}|
+This is 
+
+\section{Footnote}
+Footnotes\footnote{A footnote is a note
+of reference, explanation, or comment that is
+usually placed below the text on a printed page.}
+can be a nuisance. This is especially true if
+there are many.\footnote{Like here.} The more you see
+them, the more annoying they get.\footnote{Got it?}
+
+
+
+\section{Quote}
+Blah blah blah blah blah blah blah blah blah blah blah.
+\begin{quote}
+Next to the originator of a good sentence
+is the first quoter of it. \\
+\emph{Ralph Waldo Emerson}
+\end{quote}
+Blah blah blah blah blah blah blah blah.
+
+\section{Center}
+\begin{center}
+Blah.\\
+Blah blah blah.
+Blah blah blah blah blah\\
+blah blah blah blah blah
+blah blah blah blah blah.
+\end{center}
+
+\section{Tabular}
+\begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|  }
+\hline
+\multicolumn{3}{|c|}{Country List} \\
+\hline
+Country Name     or Area Name& ISO ALPHA 2 Code &ISO ALPHA 3 \\
+\hline
+Afghanistan & AF &AFG \\
+Aland Islands & AX   & ALA \\
+Albania &AL & ALB \\
+Algeria    &DZ & DZA \\
+American Samoa & AS & ASM \\
+Andorra & AD & AND   \\
+Angola & AO & AGO \\
+\hline
+\end{tabular}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{c c c c} 
+ \hline
+ Col1 & Col2 & Col2 & Col3 \\ 
+ \hline
+ 1 & 6 		& 87837 	& 787 \\ 
+ 2 & 7 		& 78 		& 5415 \\
+ 3 & 545 	& 778 		& 7507 \\
+ 4 & 545 	& 18744 	& 7560 \\
+ 5 & 88 	& 788 		& 6344 \\ 
+ \hline
+\end{tabular}
+\caption{Table to test captions and labels(Actually, this is one of most used style for academic published result.)}
+\label{table:1}
+\end{table}
+
+
+\section{Itemize}
+
+\begin{itemize}
+	\item First item.
+	\item Second item. Text works as usual here.
+	\item Third item is a list. Different labels here.
+	\begin{itemize}
+		\item First nested item.
+		\item Second item.
+	\end{itemize}
+\end{itemize}
+
+
+
+
+
+
+
+
+\end{document}
