@@ -152,7 +152,94 @@ Angola & AO & AGO \\
 
 
 
+\section{Math}
 
+\subsection{Inline Formula}
+Here is an inline formula:
+$   V = \frac{4 \pi r^3}{3}  $.
+
+\subsection{Displayed Formula}
+And appearing immediately below
+is a displayed formula:
+$$  V = \frac{4 \pi r^3}{3}  $$
+
+\subsection{Block}
+Joined Hypothesis:
+\begin{equation}
+H_0:\forall a_i=0;\\
+H_a: \exists a_i \neq 0;\\
+\end{equation}
+
+\subsection{Use Package}
+\verb|\usepackage{amsmath}|
+\subsubsection{Align}
+One Example:
+\begin{align*} 
+2x - 5y &=  8 \\ 
+3x + 9y &=  -12
+\end{align*}
+Another example:
+\begin{align*}
+x&=y           &  w &=z              &  a&=b+c\\
+2x&=-y         &  3w&=\frac{1}{2}z   &  a&=b\\
+-4 + 5x&=2+y   &  w+2&=-1+w          &  ab&=cb
+\end{align*}
+
+\subsubsection{Split}
+\begin{equation} \label{eq1}
+\begin{split}
+A & = \frac{\pi r^2}{2} \\
+ & = \frac{1}{2} \pi r^2
+\end{split}
+\end{equation}
+
+
+\subsubsection{Multline}
+\begin{multline*}
+p(x) = 3x^6 + 14x^5y + 590x^4y^2 + 19x^3y^3\\ 
+- 12x^2y^4 - 12xy^5 + 2y^6 - a^3b^3
+\end{multline*}
+
+\subsubsection{Subequations}
+\begin{subequations}
+Maxwell's equations:
+\begin{align}
+        B'&=-\nabla \times E,\\
+        E'&=\nabla \times B - 4\pi j,
+\end{align}
+\end{subequations}
+
+\subsection{Use of Symbols}
+It is so convenient to use \verb|\[| and \verb|\]| to block one equation.
+\[
+ A \overset{!}{=} B; A \stackrel{!}{=} B
+\]
+\subsubsection{Brace}
+\[
+ z = \overbrace{
+   \underbrace{x}_\text{real} + i
+   \underbrace{y}_\text{imaginary}
+  }^\text{complex number}
+\]
+
+\subsection{Box}
+\begin{equation}
+ \boxed{x^2+y^2 = z^2}
+\end{equation}
+
+\subsection{Label}
+\begin{equation} \label{eq:someequation}
+5^2 - 5 = 20
+\end{equation}
+
+this references the equation \ref{eq:someequation}.
+
+\subsection{Case}
+\verb|\usepackage{cases}|
+\begin{numcases}{|x|=}
+x, & for $x \geq 0$\\
+-x, & for $x < 0$
+\end{numcases}
 
 
 
