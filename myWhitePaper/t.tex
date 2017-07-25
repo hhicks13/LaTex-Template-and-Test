@@ -107,6 +107,105 @@
 
 
 
+% Adjusts the size of the wheel:
+\def\innerradius{1.8cm}
+\def\outerradius{2.2cm}
+
+% The main macro
+\newcommand{\wheelchart}[1]{
+    % Calculate total
+    \pgfmathsetmacro{\totalnum}{0}
+    \foreach \value/\colour/\name in {#1} {
+        \pgfmathparse{\value+\totalnum}
+        \global\let\totalnum=\pgfmathresult
+    }
+
+    \begin{tikzpicture}
+    % The text in the center of the wheel
+      \node[align=center,text width=2*\innerradius]{};
+
+      % Calculate the thickness and the middle line of the wheel
+      \pgfmathsetmacro{\wheelwidth}{\outerradius-\innerradius}
+      \pgfmathsetmacro{\midradius}{(\outerradius+\innerradius)/2}
+
+      % Rotate so we start from the top
+      \begin{scope}[line width=\wheelwidth,rotate=90]
+
+      % Loop through each value set. \cumnum keeps track of where we are in the wheel
+      \pgfmathsetmacro{\cumnum}{0}
+      \foreach \value/\colour/\name in {#1} {
+            \pgfmathsetmacro{\newcumnum}{\cumnum + \value/\totalnum*360}
+
+            % Calculate the percent value
+            \pgfmathsetmacro{\percentage}{\value/\totalnum*100}
+            % Calculate the mid angle of the colour segments to place the labels
+            \pgfmathsetmacro{\midangle}{-(\cumnum+\newcumnum)/2}
+
+            % This is necessary for the labels to align nicely
+            \pgfmathparse{
+               (-\midangle<5?"south":
+                (-\midangle<85?"south west":
+                 (-\midangle<105?"west":
+                  (-\midangle<175?"north west":
+                   (-\midangle<185?"north":
+                    (-\midangle<265?"north east":
+                     (-\midangle<275?"east":
+                      (-\midangle<355?"south east":"south")
+                     )
+                    )
+                   )
+                  )
+                 )
+                )
+               )
+            } \edef\textanchor{\pgfmathresult}
+
+            % Draw the color segments. Somehow, the \midrow units got lost, so we add 'pt' at the end. Not nice...
+            \draw[\colour] (-\cumnum:\midradius pt) arc (-\cumnum:-(\newcumnum):\midradius pt);
+
+            % Draw the data labels
+            \node at (\midangle:\outerradius + 1ex) [inner sep=0pt, outer sep=0pt, ,anchor=\textanchor]{\name: \value\ (\pgfmathprintnumber{\percentage}\%)};
+
+            % The 'spokes'
+            \foreach \i in {0,...,\value} {
+                \draw [gray,thin] (-\cumnum-\i/\totalnum*360:\innerradius) -- (-\cumnum-\i/\totalnum*360:\outerradius);
+            }
+
+            % Set the old cumulated angle to the new value
+            \global\let\cumnum=\newcumnum
+        }
+
+      \end{scope}
+      \draw[gray] (0,0) circle (\outerradius) circle (\innerradius);
+    \end{tikzpicture}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -426,7 +525,11 @@ For an honest miner, he will, as far as possible, \emph{go back to the entire bl
 After each block is confirmed, there will be a certain amount of reward provided. The total award is divided into two parts: the first part is the miner (60\%) who completed the current block, and the second part is the final account (40\%) cited by the citation chain, which is identified as a work with important value in the current block.
 
 
-
+\begin{figure}
+% Usage: \wheelchart{<value1>/<colour1>/<label1>, ...}
+\wheelchart{60/RoyalBlue/PoW,  40/WildStrawberry/PoI}
+\caption{Consensus mechanism. (Unit: Percent)}
+\end{figure}
 
 
 
@@ -490,6 +593,22 @@ Sybil Attack is the most common problem in blockchain design. For a completely P
 
 
 \section{Low-value Works}
+
+\begin{marginfigure}
+  \includegraphics[width=\textwidth]{fig/loopA.png}
+  \caption{Loop Attack}
+\end{marginfigure}
+
+
+
+\begin{marginfigure}
+  \includegraphics[width=\textwidth]{fig/lowV.png}
+  \caption{Low-value Work. We regard "loop attack" as a subset of "Low-value work" attack. }
+\end{marginfigure}
+
+
+
+
 
 
 Assuming the existence of a completely worthless work, the author, by generating a large number of accounts, continuously cites the worthless work in order to deceive the reward of each block. This type of problem is the challenge of all the value judgment systems based on mutual citation. The performances of Random Walk Model and PageRank, NCDawareRank are basically the same, and they all avoid the massive storage consumption of decentralization. On the other hand, every citation is not completely free and the fee will be significantly higher than the general transaction. The current citation fee we set is equivalent to more than twice the normal transaction, and the amount of money transferred must be greater than or equal to the current transaction fee. In this case, for a malicious node, the number of citation cannot be too much, otherwise the deceived block award cannot make up for the fee resulting from citation itself.
@@ -557,6 +676,7 @@ The English for RCT program token is \emph{Reference and Certify Token} abbrevia
 
 
 
+
 \begin{marginfigure}
   \includegraphics[width=\textwidth]{fig/logo.png}
   \caption{The logo of Reference \& Certify Token}
@@ -577,79 +697,6 @@ The initial source of funding for the implementation of the project is mainly de
 
 
 
-
-% Adjusts the size of the wheel:
-\def\innerradius{1.8cm}
-\def\outerradius{2.2cm}
-
-% The main macro
-\newcommand{\wheelchart}[1]{
-    % Calculate total
-    \pgfmathsetmacro{\totalnum}{0}
-    \foreach \value/\colour/\name in {#1} {
-        \pgfmathparse{\value+\totalnum}
-        \global\let\totalnum=\pgfmathresult
-    }
-
-    \begin{tikzpicture}
-    % The text in the center of the wheel
-      \node[align=center,text width=2*\innerradius]{\pgfmathprintnumber{\totalnum}~million tokens in total};
-
-      % Calculate the thickness and the middle line of the wheel
-      \pgfmathsetmacro{\wheelwidth}{\outerradius-\innerradius}
-      \pgfmathsetmacro{\midradius}{(\outerradius+\innerradius)/2}
-
-      % Rotate so we start from the top
-      \begin{scope}[line width=\wheelwidth,rotate=90]
-
-      % Loop through each value set. \cumnum keeps track of where we are in the wheel
-      \pgfmathsetmacro{\cumnum}{0}
-      \foreach \value/\colour/\name in {#1} {
-            \pgfmathsetmacro{\newcumnum}{\cumnum + \value/\totalnum*360}
-
-            % Calculate the percent value
-            \pgfmathsetmacro{\percentage}{\value/\totalnum*100}
-            % Calculate the mid angle of the colour segments to place the labels
-            \pgfmathsetmacro{\midangle}{-(\cumnum+\newcumnum)/2}
-
-            % This is necessary for the labels to align nicely
-            \pgfmathparse{
-               (-\midangle<5?"south":
-                (-\midangle<85?"south west":
-                 (-\midangle<105?"west":
-                  (-\midangle<175?"north west":
-                   (-\midangle<185?"north":
-                    (-\midangle<265?"north east":
-                     (-\midangle<275?"east":
-                      (-\midangle<355?"south east":"south")
-                     )
-                    )
-                   )
-                  )
-                 )
-                )
-               )
-            } \edef\textanchor{\pgfmathresult}
-
-            % Draw the color segments. Somehow, the \midrow units got lost, so we add 'pt' at the end. Not nice...
-            \draw[\colour] (-\cumnum:\midradius pt) arc (-\cumnum:-(\newcumnum):\midradius pt);
-
-            % Draw the data labels
-            \node at (\midangle:\outerradius + 1ex) [inner sep=0pt, outer sep=0pt, ,anchor=\textanchor]{\name: \value\ (\pgfmathprintnumber{\percentage}\%)};
-
-            % The 'spokes'
-            \foreach \i in {0,...,\value} {
-                \draw [gray,thin] (-\cumnum-\i/\totalnum*360:\innerradius) -- (-\cumnum-\i/\totalnum*360:\outerradius);
-            }
-
-            % Set the old cumulated angle to the new value
-            \global\let\cumnum=\newcumnum
-        }
-
-      \end{scope}
-      \draw[gray] (0,0) circle (\outerradius) circle (\innerradius);
-    \end{tikzpicture}
-}
 
 \begin{figure}
 % Usage: \wheelchart{<value1>/<colour1>/<label1>, ...}
@@ -691,10 +738,10 @@ The initial source of funding for the implementation of the project is mainly de
 
 During the operation of the project, the creator needs to pay a certain RCT as a fee to establish a reference relationship (in order to prevent malicious establishment of the garbage reference). Once the reference relationship is established, 40\% of the RCT awarded will be rewarded to the "works" (wallet address) in the past block according to the its influence to encourage more people to join the citation chain and encourage creators to create more influential works. ICO and early investors can either choose to transfer RCT to others, or convert their works into a wallet address for others to cite to claim more RCT earnings.
 
-\section{Milestones for the Citation Chain Project}
+\section{Milestones for the RCT Project}
 
 
-
+Please refer Table \ref{timeMileS}.
 
 
 
@@ -704,6 +751,7 @@ During the operation of the project, the creator needs to pay a certain RCT as a
 
 
 \begin{table}
+\label{timeMileS}
 \caption{Timeline of something.}
 \centering
 % \begin{minipage}[t]{.7\linewidth}
@@ -741,16 +789,25 @@ During the operation of the project, the creator needs to pay a certain RCT as a
 In the process of transformation of production, education and research, the industry needs to conduct quick and accurate pricing of scientific research products to meet the needs of a large number of highly efficient transformation research. In traditional research, peer review can be used to conduct a pricing study of a class of products to reflect the position of the research results throughout the research community. Based on the citation chain network, we will quantify the value judgments based on peer review and make the records unchangeable. When a work is introduced into a citation chain network, an account that has a higher reward in the industry (for example, an account that is constantly referenced in all previous nodes and has a high importance score) can be made simple for "reference", you can achieve the endorsement for the value of this product. One of the consequences of this is that the credit of the account becomes an important criterion for judging pricing and at the same time, the value of the work can be accounted for by the entire network.
 
 
-\section{We-media/Blog/Network Literature}
+\section{Research Paper/We-media/Blog/Network Literature}
 The Internet is constantly reducing the cost of piracy, and authors of we-media/network literature and other original contents need to face the challenges of copyright infringement and other challenges without sufficient income. Although the citation chain network cannot achieve the task of recording the content itself, copyright verification is relatively simple for the works existing in the entire network own  hash value. This feature has also been proven by other blockchain networks.
 
+
+
+\begin{figure}
+  \includegraphics[width=\textwidth]{fig/bobAlice.png}
+  \caption{An example of RCT application}
+\end{figure}
 
 
 
 One significant feature of the citation chain network differing from other blockchain networks is that systematic and scientific calculation has been done in terms of the awards of the original content of the network. Most of the modern social networks have cited the incentive mechanisms of "praise" and "opposition", and some platforms even judge the value of the entire work through the praise and opposition. But one of the challenges to this behavior is that a malicious node can generate massive virtual users in a short period of time to continually "praise" or "oppose" the work, thus affecting the platform's judgment of its value. The citation chain network, based on "citation" , conduct the value judgment, which on the one hand, costs the honest users a little for every "citation" with only a few transaction costs. But for a malicious node, if you want to deceive the network to obtain rewards, you need to generate massive users to repeat the "citation", so the income cannot even cover the required fee.
 
 
-
+\begin{marginfigure}
+  \includegraphics[width=\textwidth]{fig/treeC.png}
+  \caption{Tree Citation: The way we recommend for citation structure. }
+\end{marginfigure}
 
 The author of the original works of the network can provide information such as the hash value, account address and other information in the website, social media, or the network platform we recommend to attract other authors to make a simple reward or more formal academic reference. For an original author, the cost of the above act is almost negligible, but it can be a lot of money by virtue of the value of his work.
 
