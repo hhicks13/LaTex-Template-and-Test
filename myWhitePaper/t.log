@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  25 JUL 2017 00:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  25 JUL 2017 13:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -527,44 +527,45 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count121
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pagecolor/pagecolor.sty
+Package: pagecolor 2015/06/20 v1.0h Provides thepagecolor (HMM)
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count122
 ) (./t.aux)
 \openout1 = `t.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 102.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 102.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 95.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Try loading font information for T1+pplj on input line 102.
-
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 95.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
 \AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring OFF on input line 102.
+Package hyperref Info: Link coloring OFF on input line 95.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -574,40 +575,40 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count123
 )
-LaTeX Info: Redefining \ref on input line 102.
-LaTeX Info: Redefining \pageref on input line 102.
-LaTeX Info: Redefining \nameref on input line 102.
+LaTeX Info: Redefining \ref on input line 95.
+LaTeX Info: Redefining \pageref on input line 95.
+LaTeX Info: Redefining \nameref on input line 95.
 
 (./t.out) (./t.out)
 \@outlinefile=\write3
 \openout3 = `t.out'.
 
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 102.
+LaTeX Info: Redefining \selectfont on input line 95.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside asymmetric 
-* h-part:(L,W,R)=(70.56284pt, 304.44447pt, 222.50056pt)
-* v-part:(T,H,B)=(77.96053pt, 686.0pt, 81.08632pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=304.44447pt
-* \textheight=686.0pt
-* \oddsidemargin=-1.70715pt
-* \evensidemargin=-1.70715pt
-* \topmargin=-36.30946pt
+* h-part:(L,W,R)=(72.26999pt, 312.0pt, 230.02501pt)
+* v-part:(T,H,B)=(72.26999pt, 616.0pt, 106.7pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=312.0pt
+* \textheight=616.0pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-42.0pt
 * \headheight=14.0pt
 * \headsep=28.0pt
 * \topskip=10.0pt
 * \footskip=25.29494pt
-* \marginparwidth=140.5566pt
-* \marginparsep=23.33124pt
+* \marginparwidth=144.0pt
+* \marginparsep=24.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
@@ -635,23 +636,23 @@ LaTeX Info: Redefining \selectfont on input line 102.
 )
 \big@size=\dimen135
 \langwohyphens=\language84
-LaTeX Font Info:    Try loading font information for T1+phv on input line 104.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 97.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 104.
+(Font)              scaled to size 8.99994pt on input line 97.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 16.19989pt on input line 104.
+(Font)              scaled to size 16.19989pt on input line 97.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 32.39978pt on input line 104.
+(Font)              scaled to size 32.39978pt on input line 97.
 
-Overfull \hbox (16.01508pt too wide) in paragraph at lines 104--104
+Overfull \hbox (4.34738pt too wide) in paragraph at lines 97--97
 []\T1/phv/m/n/36/200ls REFERENCE & CER-TIFY 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 12.59991pt on input line 104.
+(Font)              scaled to size 12.59991pt on input line 97.
 [1
 
 
@@ -665,102 +666,82 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 
 ]
 Chapter 1.
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 112
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 105
 .
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 112
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 105
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 112
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 105
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 112
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 105
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 112
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 105
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 ) [3
 
-]
+] [4]
+Chapter 2.
+[5
 
-! LaTeX Error: Environment snugshade undefined.
+] [6]
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 132.
+LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <9> not available
+(Font)              Font shape `T1/pplj/b/it' tried instead on input line 132.
+LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <12> not available
+(Font)              Font shape `T1/pplj/b/it' tried instead on input line 132.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.118 \begin{shadequote}
-                        
-? 
-! Undefined control sequence.
-\shadequote@i ...ugshade}\begin {quote}\openquote 
-                                                  
-l.118 \begin{shadequote}
-                        
-? 
-! Undefined control sequence.
-\endshadequote ->\if@right \hfill \fi \closequote 
-                                                  \end {quote}\end {snugshade}
-l.121 \end{shadequote}
-                      
-? 
-
-! LaTeX Error: \begin{shadequote} on input line 118 ended by \end{snugshade}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.121 \end{shadequote}
-                      
-? 
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
-[4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
+[7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
  (./t.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `t.out' has not changed.
-(rerunfilecheck)             Checksum: FC0EA5B3215C201D277E86B9E54882AF;167.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 123.
+(rerunfilecheck)             Checksum: 7632EB327E246CAB0A6ED222B48E1D3A;601.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 12653 strings out of 492995
- 179022 string characters out of 6132704
- 372436 words of memory out of 5000000
- 15975 multiletter control sequences out of 15000+600000
- 74039 words of font info for 106 fonts, out of 8000000 for 9000
+ 12685 strings out of 492995
+ 179676 string characters out of 6132704
+ 375895 words of memory out of 5000000
+ 15993 multiletter control sequences out of 15000+600000
+ 76741 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,11n,45p,908b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2
 017/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2017/tex
 mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist
-/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/
-type1/urw/palatino/uplri8a.pfb>
-Output written on t.pdf (4 pages, 47445 bytes).
+/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts
+/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
+urw/palatino/uplri8a.pfb>
+Output written on t.pdf (7 pages, 65237 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 2577 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 117 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 2617 words of extra memory for PDF output out of 10000 (max. 10000000)
 

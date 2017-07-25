@@ -1,15 +1,17 @@
 % \documentclass[a4paper,twoside]{tufte-book}
-\documentclass[a4paper,oneside,openany]{tufte-book}
+\documentclass[oneside,openany]{tufte-book}
 
 \usepackage{xcolor} % for colour
 \usepackage{lipsum} % just for sample text
+\usepackage{pagecolor}
 
+\definecolor{chapco}{HTML}{4A96AD} % F52549
+\definecolor{secColor}{HTML}{F52549}     % F62A00
+\definecolor{subsecColor}{HTML}{F62A00} %FA6775
+\definecolor{pBackColor}{HTML}{F5F3EE}  % ECECEA 6F6F6
+            
 
-\definecolor{chapco}{HTML}{F52549}
-\definecolor{secColor}{HTML}{F62A00}
-\definecolor{subsecColor}{HTML}{FA6775}
-
-\definecolor{secnum}{RGB}{13,151,225}
+\definecolor{myQuote}{HTML}{D50B53}
 \definecolor{ptcbackground}{RGB}{212,237,252}
 \definecolor{ptctitle}{RGB}{0,177,235}
 
@@ -91,7 +93,7 @@
 
 
 \begin{document}
-
+% \pagecolor{pBackColor}
 \maketitle
 \tableofcontents
 
@@ -106,6 +108,38 @@
 \lipsum[1]
 \subsection{Sub section}
 \lipsum[2]
+
+\chapter{Chapter}
+\lipsum[3]
+\section{Section}
+\lipsum[4]
+\subsection{Sub section}
+\lipsum[5]
+\section{Section}
+\lipsum[7]
+\section{Section}
+\lipsum[8]
+\section{Section}
+\lipsum[9]
+\lipsum[10]
+\lipsum[11]
+
+
+fii ti 
+
+\begin{quote}
+\color{myQuote}{\textbf{\textit{\Large Next to the originator of a good sentence
+is the first quoter of it. Ralph Waldo Emerson}}}
+\end{quote}
+
+
+
+
+
+
+
+
+
 
 
 \end{document}
