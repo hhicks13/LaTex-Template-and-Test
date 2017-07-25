@@ -1,0 +1,119 @@
+% \documentclass[a4paper,twoside]{tufte-book}
+\documentclass[a4paper,oneside,openany]{tufte-book}
+
+\usepackage{xcolor} % for colour
+\usepackage{lipsum} % just for sample text
+
+
+\definecolor{chapco}{HTML}{F52549}
+\definecolor{secColor}{HTML}{F62A00}
+\definecolor{subsecColor}{HTML}{FA6775}
+
+\definecolor{secnum}{RGB}{13,151,225}
+\definecolor{ptcbackground}{RGB}{212,237,252}
+\definecolor{ptctitle}{RGB}{0,177,235}
+
+% TOC
+  \usepackage{titletoc}
+  \usepackage{etoolbox}
+  \setcounter{tocdepth}{2}
+
+
+
+% add numbers to chapters, sections, subsections
+\setcounter{secnumdepth}{2}
+
+% chapter format
+\titleformat{\chapter}%
+  {\huge\rmfamily\itshape\color{chapco}}% format applied to label+text
+  {\llap{\colorbox{chapco}{\parbox{1.5cm}{\hfill\itshape\huge\color{white}\thechapter}}}}% label
+  {1em}% horizontal separation between label and title body
+  {}% before the title body
+  []% after the title body
+
+% section format
+\titleformat{\section}%
+  {\normalfont\Large\itshape\color{secColor}}% format applied to label+text
+  {\llap{\colorbox{secColor}{\parbox{1.5cm}{\hfill\color{white}\thesection}}}}% label
+  {1em}% horizontal separation between label and title body
+  {}% before the title body
+  []% after the title body
+
+
+
+% subsection format
+\titleformat{\subsection}%
+  {\normalfont\large\itshape\color{subsecColor}}% format applied to label+text
+  {\llap{\colorbox{subsecColor}{\parbox{1.5cm}{\hfill\color{white}\thesubsection}}}}% label
+  {1em}% horizontal separation between label and title body
+  {}% before the title body
+  []% after the title body
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\title{Reference \& Certify Token}
+\author{foundation@rctoken.com}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+
+
+
+
+\chapter{Chapter}
+\lipsum[1]
+\section{Section}
+\lipsum[1]
+\subsection{Sub section}
+\lipsum[2]
+
+
+\end{document}
+
+
+
+
+
+
+
+
