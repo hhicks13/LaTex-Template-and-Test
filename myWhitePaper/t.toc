@@ -16,8 +16,8 @@
 \contentsline {section}{\numberline {5.1}Circulation of RCT}{12}{section.5.1}
 \contentsline {section}{\numberline {5.2}RCT Allocation Program}{12}{section.5.2}
 \contentsline {section}{\numberline {5.3}Milestones for the Citation Chain Project}{12}{section.5.3}
-\contentsline {chapter}{\numberline {6}Scenes of Application}{13}{chapter.6}
-\contentsline {section}{\numberline {6.1}Patent Conversion and Rapid Pricing of Scientific Research Products}{13}{section.6.1}
-\contentsline {section}{\numberline {6.2}We-media/Blog/Network Literature}{13}{section.6.2}
-\contentsline {chapter}{\numberline {7}Summary}{15}{chapter.7}
+\contentsline {chapter}{\numberline {6}Scenes of Application}{14}{chapter.6}
+\contentsline {section}{\numberline {6.1}Patent Conversion and Rapid Pricing of Scientific Research Products}{14}{section.6.1}
+\contentsline {section}{\numberline {6.2}We-media/Blog/Network Literature}{14}{section.6.2}
+\contentsline {chapter}{\numberline {7}Summary}{16}{chapter.7}
 \contentsfinish 
