@@ -1,23 +1,25 @@
 \select@language {english}
 \contentsline {chapter}{\numberline {1}Background and Concept of Design}{4}{chapter.1}
-\contentsline {chapter}{\numberline {2}Our Mission}{6}{chapter.2}
-\contentsline {chapter}{\numberline {3}Innovation of the Citation Chain}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}Blockchain Design}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}Incentive Mechanism}{7}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Proof of Importance (PoI)}{7}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Random Walk Model}{8}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Difficulty Calculation and Confirmation of Block}{9}{section.3.3}
-\contentsline {chapter}{\numberline {4}Possible Attacks and Solutions}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Sybil Attack}{11}{section.4.1}
-\contentsline {section}{\numberline {4.2}Low-value Works}{11}{section.4.2}
-\contentsline {section}{\numberline {4.3}Retrospecctive Difficulty}{11}{section.4.3}
-\contentsline {section}{\numberline {4.4}Block Generation Time}{12}{section.4.4}
-\contentsline {chapter}{\numberline {5}Commercialization Program}{13}{chapter.5}
-\contentsline {section}{\numberline {5.1}Circulation of RCT}{13}{section.5.1}
-\contentsline {section}{\numberline {5.2}RCT Allocation Program}{13}{section.5.2}
-\contentsline {section}{\numberline {5.3}Milestones for the RCT Project}{14}{section.5.3}
-\contentsline {chapter}{\numberline {6}Scenes of Application}{15}{chapter.6}
-\contentsline {section}{\numberline {6.1}Patent Conversion and Rapid Pricing of Scientific Research Products}{15}{section.6.1}
-\contentsline {section}{\numberline {6.2}Research Paper/We-media/Blog/Network Literature}{15}{section.6.2}
-\contentsline {chapter}{\numberline {7}Summary}{17}{chapter.7}
+\contentsline {chapter}{\numberline {2}Our Mission And Team}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Our Mission}{6}{section.2.1}
+\contentsline {section}{\numberline {2.2}Team}{6}{section.2.2}
+\contentsline {chapter}{\numberline {3}Innovation of the Citation Chain}{8}{chapter.3}
+\contentsline {section}{\numberline {3.1}Blockchain Design}{8}{section.3.1}
+\contentsline {section}{\numberline {3.2}Incentive Mechanism}{8}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Proof of Importance (PoI)}{8}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Random Walk Model}{9}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Difficulty Calculation and Confirmation of Block}{10}{section.3.3}
+\contentsline {chapter}{\numberline {4}Possible Attacks and Solutions}{12}{chapter.4}
+\contentsline {section}{\numberline {4.1}Sybil Attack}{12}{section.4.1}
+\contentsline {section}{\numberline {4.2}Low-value Works}{12}{section.4.2}
+\contentsline {section}{\numberline {4.3}Retrospecctive Difficulty}{12}{section.4.3}
+\contentsline {section}{\numberline {4.4}Block Generation Time}{13}{section.4.4}
+\contentsline {chapter}{\numberline {5}Commercialization Program}{14}{chapter.5}
+\contentsline {section}{\numberline {5.1}Circulation of RCT}{14}{section.5.1}
+\contentsline {section}{\numberline {5.2}RCT Allocation Program}{14}{section.5.2}
+\contentsline {section}{\numberline {5.3}Milestones for the RCT Project}{15}{section.5.3}
+\contentsline {chapter}{\numberline {6}Scenes of Application}{16}{chapter.6}
+\contentsline {section}{\numberline {6.1}Patent Conversion and Rapid Pricing of Scientific Research Products}{16}{section.6.1}
+\contentsline {section}{\numberline {6.2}Research Paper/We-media/Blog/Network Literature}{16}{section.6.2}
+\contentsline {chapter}{\numberline {7}Summary}{18}{chapter.7}
 \contentsfinish 
