@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 AUG 2017 15:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 AUG 2017 19:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1489,32 +1489,32 @@ Package pdftex.def Info: fig/p2.jpeg used on input line 370.
 (pdftex.def)             Requested size: 85.35826pt x 85.3385pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 371--372
-[]\T1/pplj/m/n/10 a Ph.D. stu-dent of Math-e-mat-ics and Com-puter Sci-ence at 
-UT/ORNL. He is an en-gi-neer
+[]\T1/pplj/m/n/10 a Ph.D. stu-dent at UT/ORNL. He is an en-gi-neer and de-vel-o
+per with deep knowl-edge
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 371--372
-\T1/pplj/m/n/10 and de-vel-oper with deep knowl-edge in com-pu-ta-tional mod-el
-s, database de-vel-op-ment
+\T1/pplj/m/n/10 in com-pu-ta-tional mod-els, database de-vel-op-ment and al-go-
+rithm de-sign. He has ex-pe-ri-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 371--372
-\T1/pplj/m/n/10 and al-go-rithm de-sign. He has ex-pe-ri-ence in de-vel-op-ing 
-in-te-grated and high per-for-
+\T1/pplj/m/n/10 ence in de-vel-op-ing in-te-grated and high per-for-mance com-p
+u-ta-tional sys-tems at ORNL.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 371--372
-\T1/pplj/m/n/10 mance com-pu-ta-tional sys-tems at ORNL. Re-gard-ing blockchain
- as the next rev-o-lu-tion,
+\T1/pplj/m/n/10 Re-gard-ing blockchain as the next rev-o-lu-tion, Alex started 
+to get in-volved in cryp-tocur-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 371--372
-\T1/pplj/m/n/10 Alex started to get in-volved in cryp-tocur-rency ecosys-tem an
-d joined the team to launch
+\T1/pplj/m/n/10 rency ecosys-tem and joined the team to launch blockchain plat-
+form based on in-no-va-tive
  []
 
 <fig/p4.jpeg, id=168, 1373.13pt x 1373.13pt>
@@ -1776,7 +1776,7 @@ nts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
 pe1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw
 /palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palati
 no/uplri8a.pfb>
-Output written on t.pdf (18 pages, 3116608 bytes).
+Output written on t.pdf (18 pages, 3116601 bytes).
 PDF statistics:
  296 PDF objects out of 1000 (max. 8388607)
  218 compressed objects within 3 object streams
