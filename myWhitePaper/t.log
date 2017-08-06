@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  4 AUG 2017 14:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 AUG 2017 15:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1489,33 +1489,32 @@ Package pdftex.def Info: fig/p2.jpeg used on input line 370.
 (pdftex.def)             Requested size: 85.35826pt x 85.3385pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 371--372
-[]\T1/pplj/m/n/10 received his B.S. in Math-e-mat-ics and Com-puter Sci-ence fr
-om \T1/pplj/m/it/10 Cen-tre Col-lege \T1/pplj/m/n/10 in 2015. He is
+[]\T1/pplj/m/n/10 a Ph.D. stu-dent of Math-e-mat-ics and Com-puter Sci-ence at 
+UT/ORNL. He is an en-gi-neer
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 371--372
-\T1/pplj/m/n/10 cur-rently a Ph.D. stu-dent at the \T1/pplj/m/it/10 Uni-ver-sit
-y of Ten-nessee, Knoxville \T1/pplj/m/n/10 and \T1/pplj/m/it/10 Oak Ridge Na-ti
-onal
+\T1/pplj/m/n/10 and de-vel-oper with deep knowl-edge in com-pu-ta-tional mod-el
+s, database de-vel-op-ment
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 371--372
-\T1/pplj/m/it/10 Lab-o-ra-tory\T1/pplj/m/n/10 . Work-ing in the labs of Michael
- Gilchrist and Robert Het-tich, his cur-rent re-
+\T1/pplj/m/n/10 and al-go-rithm de-sign. He has ex-pe-ri-ence in de-vel-op-ing 
+in-te-grated and high per-for-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 371--372
-\T1/pplj/m/n/10 search in-ter-est is the de-vel-op-ment of com-pu-ta-tional mod
--els to an-a-lyze huge data sets.
+\T1/pplj/m/n/10 mance com-pu-ta-tional sys-tems at ORNL. Re-gard-ing blockchain
+ as the next rev-o-lu-tion,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 371--372
-\T1/pplj/m/n/10 Prior to his Ph.D. work, his projects in-cluded sports an-a-lyt
--ics, com-pu-ta-tional fluid dy-
+\T1/pplj/m/n/10 Alex started to get in-volved in cryp-tocur-rency ecosys-tem an
+d joined the team to launch
  []
 
 <fig/p4.jpeg, id=168, 1373.13pt x 1373.13pt>
@@ -1525,26 +1524,26 @@ Package pdftex.def Info: fig/p4.jpeg used on input line 373.
 (pdftex.def)             Requested size: 85.35826pt x 85.3385pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 374--375
-[]\T1/pplj/m/n/10 received his Ph.D. de-gree at \T1/pplj/m/it/10 Shang-hai Jiao
- Tong Uni-ver-sity\T1/pplj/m/n/10 . He is also a cryp-tocur-rency &
+[]\T1/pplj/m/n/10 working at UT/ORNL. He is a cryp-tocur-rency & blockchain en-
+thu-si-ast. As a for-mer
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 374--375
-\T1/pplj/m/n/10 blockchain en-thu-si-ast. As a for-mer Se-nior Data Min-ing En-
-gi-neer at \T1/pplj/m/it/10 Hola-verse\T1/pplj/m/n/10 , he worked
+\T1/pplj/m/n/10 Se-nior Data Min-ing En-gi-neer at Hola-verse, he worked on mo-
+bile in-ter-net big data data
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 374--375
-\T1/pplj/m/n/10 on mo-bile in-ter-net big data datamin-ing and rec-om-men-da-ti
-on al-go-rithm de-vel-op-ment.
+\T1/pplj/m/n/10 min-ing and rec-om-men-da-tion al-go-rithm de-sign. He was in-v
+olved in blockchain field
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 374--375
-\T1/pplj/m/n/10 He was in-volved in blockchain field since 2013 and joined RCT 
-in 2017, re-spon-si-ble for
+\T1/pplj/m/n/10 since 2013 and joined RCT in 2017, re-spon-si-ble for the de-ve
+l-op-ment of the in-fras-truc-ture
  []
 
 <fig/p3.jpeg, id=169, 1373.13pt x 1397.22pt>
@@ -1554,27 +1553,26 @@ Package pdftex.def Info: fig/p3.jpeg used on input line 376.
 (pdftex.def)             Requested size: 85.35826pt x 86.83568pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 377--378
-[]\T1/pplj/m/n/10 received his B.S. from \T1/pplj/m/it/10 Uni-ver-sity of Arkan
-sas \T1/pplj/m/n/10 in 2012. He is cur-rently a Ph.D can-di-date at
+[]\T1/pplj/m/n/10 a Ph.D. Can-di-date at UT/ORNL. With five years of ex-pe-ri-e
+nce in graph al-go-rithms,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 377--378
-\T1/pplj/m/n/10 the \T1/pplj/m/it/10 Uni-ver-sity of Ten-nessee, Knoxville \T1/
-pplj/m/n/10 and \T1/pplj/m/it/10 Oak Ridge Na-tional Lab-o-ra-tory\T1/pplj/m/n/
-10 . Un-der the guid-
+\T1/pplj/m/n/10 ap-pli-ca-tions and im-ple-men-ta-tions, Stephen brings a wealt
+h of con-sen-sus al-go-rithm de-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 377--378
-\T1/pplj/m/n/10 ance of Dr. Michael A. Langston, his cur-rent re-search in-ter-
-ests are dom-i-nat-ing set, graph
+\T1/pplj/m/n/10 vel-op-ment knowl-edge to the RCT project. He has a strong trac
+k record work-ing with
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 377--378
-\T1/pplj/m/n/10 al-go-rithms, ap-pli-ca-tions and im-ple-men-ta-tions. Prior to
- his Ph.D. work, his projects in-
+\T1/pplj/m/n/10 ad-vanced com-pu-ta-tion so-lu-tions in al-go-rithm de-sign, mo
+d-el-ing, sim-u-la-tion and prod-uct
  []
 
 <fig/p1.jpeg, id=170, 1373.13pt x 1373.13pt>
@@ -1584,32 +1582,32 @@ Package pdftex.def Info: fig/p1.jpeg used on input line 379.
 (pdftex.def)             Requested size: 85.35826pt x 85.3385pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 380--381
-[]\T1/pplj/m/n/10 received his B.S. de-gree at \T1/pplj/m/it/10 Shang-hai Jiao 
-Tong Uni-ver-sity\T1/pplj/m/n/10 . He is cur-rently a Ph.D. can-di-
+[]\T1/pplj/m/n/10 a Ph.D. can-di-date at UTK. As an ex-pe-ri-enced de-vel-oper 
+in cre-at-ing, ar-chi-tect-ing, ac-quir-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 380--381
-\T1/pplj/m/n/10 date at \T1/pplj/m/it/10 Haslam Col-lege of Busi-ness, the Uni-
-ver-sity of Ten-nessee\T1/pplj/m/n/10 . Guided by Dr. Ham-par-sum
+\T1/pplj/m/n/10 ing and de-ploy-ing soft-ware so-lu-tions at ORNL, Yao-jin man-
+ages the tech-ni-cal as-pects
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 380--381
-\T1/pplj/m/n/10 Boz-do-gan, his cur-rent re-search in-ter-ests in-clude ma-chin
-e learn-ing al-go-rithms, sta-tis-ti-cal
+\T1/pplj/m/n/10 of the RCT project in-clud-ing con-sen-sus al-go-rithm, frame-w
+ork de-sign and the de-vel-op-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 380--381
-\T1/pplj/m/n/10 in-for-ma-tion the-ory and han-dling large data sets for de-ci-
-sion mak-ing. He was in-volved in
+\T1/pplj/m/n/10 ment of the project's in-for-ma-tion. He is cryp-tocur-rency en
+-thu-si-ast, blockchain de-vel-oper
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 380--381
-\T1/pplj/m/n/10 blockchain field since 2015 and joined RCT project in 2017, re-
-spon-si-ble for the de-vel-op-
+\T1/pplj/m/n/10 with back-ground in ad-vanced com-pu-ta-tion tech-nol-ogy and m
+a-chine learn-ing al-go-rithm
  []
 
 
@@ -1778,7 +1776,7 @@ nts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
 pe1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw
 /palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palati
 no/uplri8a.pfb>
-Output written on t.pdf (18 pages, 3117841 bytes).
+Output written on t.pdf (18 pages, 3116608 bytes).
 PDF statistics:
  296 PDF objects out of 1000 (max. 8388607)
  218 compressed objects within 3 object streams
